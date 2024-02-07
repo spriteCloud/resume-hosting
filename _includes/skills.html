@@ -28,7 +28,7 @@
 
       <div class="level-bar">
         {% assign scaledLevel = (skill.level / maxLevel) * 100 %}
-        <div class="level-bar-inner" data-level="{{ scaledLevel }}">
+        <div class="level-bar-inner" style="width: {{ scaledLevel }}%;">
         </div>
       </div><!--//level-bar-->
 
