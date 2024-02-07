@@ -1,14 +1,15 @@
 {% assign skills = site.data.data.skills %}
 {% if skills %}
-{% assign maxLevel = 0 %}
-{% for category in skills.categories %}
-{% for skill in category.toolset %}
-{% if skill.level > maxLevel %}
-{% assign maxLevel = skill.level %}
-{% endif %}
-{% endfor %}
-{% endfor %}
 <section class="skills-section section">
+
+  {% assign maxLevel = 0 %}
+  {% for category in skills.categories %}
+  {% for skill in category.toolset %}
+  {% if skill.level > maxLevel %}
+  {% assign maxLevel = skill.level %}
+  {% endif %}
+  {% endfor %}
+  {% endfor %}
 
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
