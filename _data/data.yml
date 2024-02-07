@@ -148,21 +148,29 @@ projects:
         link: "#"
         tagline: "Brief description"
 
+
 skills:
-    title: Skills &amp; Proficiency
+  title: Skills &amp; Proficiency
 
-    toolset:
-      - name: Skill#1
-        level: 90%
+  categories:
+    - Category#1:
+        toolset:
+          - name: Skill#1
+            level: 90%
 
-      - name: Skill#2
-        level: 70%
+          - name: Skill#2
+            level: 50%
 
-      - name: Skill#3
-        level: 85%
+          - name: Skill#3
+            level: 70%
 
-      - name: Skill#4
-        level: 50%
+    - Category#2:
+        toolset:
+          - name: Skill#1
+            level: 75%
 
-      - name: Skill#5
-        level: 100%
+          - name: Skill#2
+            level: 90%
+
+          - name: Skill#3
+            level: 30%
