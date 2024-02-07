@@ -81,8 +81,8 @@ Check out the latest version ***[here](projectLink)***.
     <td>Level(1-10)</td>
   </tr>
   <tr>
-    <td>Skill#5</td>
-    <td>Level(1-10)</td>
+    <td>...</td>
+    <td>...</td>
   </tr>
 </table>
 
