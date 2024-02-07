@@ -6,43 +6,20 @@ plugins:
 remote_theme: sharu725/online-cv
 github: [metadata]
 
-###########################################################
-### Welcome to Beautiful Jekyll!
-### This config file is meant for settings that affect your entire website. When you first
-### set up your website you should go through all these settings and edit them, but after
-### the initial set up you won't need to come back to this file often.
-###########################################################
-
-############################
-# --- Required options --- #
-############################
-
 # Name of website
 title: spriteCloud Resume
 
 # Your name to show in the footer
 author: Consultant Name
 
-###############################################
-# --- List of links in the navigation bar --- #
-###############################################
+# Site Settings
+# url: 'http://example.com'
 
-navbar-links:
-  About Me: "About the consultant"
-  LinkedIn: https://www.linkedin.com/in/consultant/
-  GitHub: https://github.com/consultant
-  Email me!: mailto:consultant@spritecloud.com
+#change it according to your repository name
+# disabling since we are using a custom domain
+#baseurl: '/online-cv'
 
-################
-# --- Logo --- #
-################
-
-# Image to show in the navigation bar - works best with a square image
-# Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/logo.png"
-
-# By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
-round-avatar: true
-
+description: A beautiful Jekyll theme for creating resume
+# Style will be applied only after restarting the build or serve. Just choose one of the options.
 theme_skin: blue # blue turquoise green berry orange ceramic
 chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
