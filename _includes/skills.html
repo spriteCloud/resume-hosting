@@ -1,5 +1,13 @@
 {% assign skills = site.data.data.skills %}
 {% if skills %}
+{% assign maxLevel = 0 %}
+{% for category in skills.categories %}
+{% for skill in category.toolset %}
+{% if skill.level > maxLevel %}
+{% assign maxLevel = skill.level %}
+{% endif %}
+{% endfor %}
+{% endfor %}
 <section class="skills-section section">
 
   <h2 class="section-title">
@@ -12,34 +20,18 @@
 
   <div class="skillset">
 
-    {% assign maxLevel = 0 %}
-    {% for category in skills.categories %}
-    {% for skill in category.toolset %}
-    {% if skill.level > maxLevel %}
-    {% assign maxLevel = skill.level %}
-    {% endif %}
-    {% endfor %}
-    {% endfor %}
-
-    <p>Max Level: {{ maxLevel }}</p> <!-- Debug Output -->
-
-    {% for category in skills.categories %}
-    <h4>{{ category.title | capitalize }}</h4>
-    {% for skill in category.toolset %}
+    {% for skill in skills.toolset %}
     <div class="item">
 
-      <h4 class="level-title">{{ skill.name }}</h4>
+      <h3 class="level-title">{{ skill.name }}</h3>
 
-      <div class="level-bar" style="max-width: 100%;">
-        {% assign scaledLevel = (skill.level / maxLevel) * 100 | round %}
+      <div class="level-bar">
+        {% assign scaledLevel = (skill.level / maxLevel) * 100 %}
         <p>Scaled Level: {{ scaledLevel }}</p> <!-- Debug Output -->
-        <div class="level-bar-inner" style="width: {{ scaledLevel }}%;">
-          {{ scaledLevel }}%
-        </div>
+        <div class="level-bar-inner" data-level="{{ scaledLevel }}%"></div>
       </div><!--//level-bar-->
 
     </div><!--//item-->
-    {% endfor %}
     {% endfor %}
 
   </div>
