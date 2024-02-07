@@ -14,10 +14,10 @@ sidebar:
 
     # Sidebar links
     email: consultant@spritecloud.com
-    phone: +31000000000
+    #phone: +31000000000
     timezone: Amsterdam
     nationality: Dutch
-    linkedin: linkedin.com/in/consultant
+    #linkedin: linkedin.com/in/consultant
     github: github.com/spriteCloud-consultant
 #    stack-overflow: # Number/Username, e.g. 123456/alandoe
 #    pdf: http://www.africau.edu/images/default/sample.pdf #TODO: CV PDF LINK
@@ -26,13 +26,13 @@ sidebar:
       title: Languages
       info:
         - idiom: English
-          level: Native
+          level: C2
 
         - idiom: Dutch
-          level: Professional
+          level: B2
 
         - idiom: French
-          level: Casual
+          level: A1
 
     interests:
       title: Interests
@@ -153,24 +153,24 @@ skills:
   title: Skills &amp; Proficiency
 
   categories:
-    - Category#1:
-        toolset:
-          - name: Skill#1
-            level: 90%
+    - title: Category#1
+      toolset:
+        - name: Skill#1
+          level: 90%
 
-          - name: Skill#2
-            level: 50%
+        - name: Skill#2
+          level: 50%
 
-          - name: Skill#3
-            level: 70%
+        - name: Skill#3
+          level: 70%
 
-    - Category#2:
-        toolset:
-          - name: Skill#1
-            level: 75%
+    - title: Category#2
+      toolset:
+        - name: Skill#1
+          level: 75%
 
-          - name: Skill#2
-            level: 90%
+        - name: Skill#2
+          level: 90%
 
-          - name: Skill#3
-            level: 30%
+        - name: Skill#3
+          level: 30%
