@@ -30,10 +30,11 @@
 
       <h4 class="level-title">{{ skill.name }}</h4>
 
-      <div class="level-bar">
+      <div class="level-bar" style="max-width: 100%;">
         {% assign scaledLevel = (skill.level / maxLevel) * 100 | round %}
         <p>Scaled Level: {{ scaledLevel }}</p> <!-- Debug Output -->
         <div class="level-bar-inner" style="width: {{ scaledLevel }}%;">
+          {{ scaledLevel }}%
         </div>
       </div><!--//level-bar-->
 
