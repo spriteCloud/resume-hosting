@@ -135,7 +135,7 @@ education:
           - Bullet point
 
 projects:
-    title: Projects
+    title: Projects (or personal projects, OPTIONAL)
     intro: >
       You can list your side projects in this
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -206,22 +206,22 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Skill#1
         level: 98%
 
-      - name: Javascript & jQuery
+      - name: Skill#2
         level: 98%
 
-      - name: Angular
+      - name: Skill#3
         level: 98%
 
-      - name: HTML5 & CSS
+      - name: Skill#4
         level: 95%
 
-      - name: Ruby on Rails
+      - name: Skill#5
         level: 85%
 
-      - name: Sketch & Photoshop
+      - name: Skill#6
         level: 60%
 
 footer: >
