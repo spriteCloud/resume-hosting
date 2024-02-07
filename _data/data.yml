@@ -156,21 +156,21 @@ skills:
     - title: Category#1
       toolset:
         - name: Skill#1
-          level: 90%
+          level: 10
 
         - name: Skill#2
-          level: 50%
+          level: 5
 
         - name: Skill#3
-          level: 70%
+          level: 7
 
     - title: Category#2
       toolset:
         - name: Skill#1
-          level: 75%
+          level: 7
 
         - name: Skill#2
-          level: 90%
+          level: 6.5
 
         - name: Skill#3
-          level: 30%
+          level: 3.5

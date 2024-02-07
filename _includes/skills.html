@@ -12,15 +12,23 @@
 
   <div class="skillset">
 
+    {% assign maxLevel = 0 %}
     {% for category in skills.categories %}
     <h4>{{ category.title | capitalize }}</h4>
+    {% for skill in category.toolset %}
+    {% if skill.level > maxLevel %}
+    {% assign maxLevel = skill.level %}
+    {% endif %}
+    {% endfor %}
+
     {% for skill in category.toolset %}
     <div class="item">
 
       <h4 class="level-title">{{ skill.name }}</h4>
 
       <div class="level-bar">
-        <div class="level-bar-inner" data-level="{{ skill.level }}">
+        {% assign scaledLevel = (skill.level / maxLevel) * 100 %}
+        <div class="level-bar-inner" data-level="{{ scaledLevel }}">
         </div>
       </div><!--//level-bar-->
 
