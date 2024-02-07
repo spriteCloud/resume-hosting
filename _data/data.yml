@@ -210,19 +210,19 @@ skills:
         level: 98%
 
       - name: Skill#2
-        level: 98%
+        level: 70%
 
       - name: Skill#3
-        level: 98%
-
-      - name: Skill#4
-        level: 95%
-
-      - name: Skill#5
         level: 85%
 
+      - name: Skill#4
+        level: 50%
+
+      - name: Skill#5
+        level: 65%
+
       - name: Skill#6
-        level: 60%
+        level: 40%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
