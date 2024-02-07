@@ -4,7 +4,7 @@
 
 sidebar:
     position: right # position of the sidebar : left or right
-    # about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -17,8 +17,8 @@ sidebar:
     phone: +31000000000
     timezone: Amsterdam
     nationality: Dutch
-    linkedin: https://www.linkedin.com/in/consultant/
-    github: [GitHub](https://github.com/consultant)
+    linkedin: [LinkedIn](https://www.linkedin.com/in/consultant/)
+    github: [GitHub](https://github.com/spriteCloud-consultant)
 #    stack-overflow: # Number/Username, e.g. 123456/alandoe
 #    pdf: http://www.africau.edu/images/default/sample.pdf #TODO: CV PDF LINK
 
