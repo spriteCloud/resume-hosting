@@ -6,8 +6,9 @@ sidebar:
     position: right # position of the sidebar : left or right
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
+    download: True # Set to True if you want to enable PDF download
 
-    # Profile information
+  # Profile information
     name: Consultant Name
     tagline: Consultant Title
     avatar: logo.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
