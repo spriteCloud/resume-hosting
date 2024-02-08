@@ -35,13 +35,13 @@ sidebar:
       title: Interests
       info:
         - item: Climbing
-          link: interestLink
+          link:
 
         - item: Snowboarding
-          link: interestLink
+          link:
 
         - item: Cooking
-          link: interestLink
+          link:
 
 career-profile:
     title: Career
