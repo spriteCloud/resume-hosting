@@ -8,20 +8,16 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
     download: True # Set to True if you want to enable PDF download
 
-  # Profile information
+    # Profile information
     name: Consultant Name
     tagline: Consultant Title
     avatar: logo.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: consultant@spritecloud.com
-    #phone: +31000000000
     timezone: Amsterdam
     nationality: Dutch
-    #linkedin: linkedin.com/in/consultant
     github: github.com/spriteCloud-consultant
-#    stack-overflow: # Number/Username, e.g. 123456/alandoe
-#    pdf: http://www.africau.edu/images/default/sample.pdf #TODO: CV PDF LINK
 
     languages:
       title: Languages
@@ -39,13 +35,13 @@ sidebar:
       title: Interests
       info:
         - item: Climbing
-          link:
+          link: interestLink
 
         - item: Snowboarding
-          link:
+          link: interestLink
 
         - item: Cooking
-          link:
+          link: interestLink
 
 career-profile:
     title: Career
