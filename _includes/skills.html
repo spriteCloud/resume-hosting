@@ -19,8 +19,11 @@
     <h4>{{ category.title | capitalize }}</h4>
     {% for skill in category.toolset %}
     {% if skill.level == nil %}
-    {% assign skillLevel = skill.years | times: 10 %}
-    {% assign skillLevel = skillLevel | append: '%' | remove: '.0' %}
+    {% if skill.years > 10 %}
+    {% assign skillLevel = 100 | append: '%' | remove: '.0' %}
+    {% else %}
+    {% assign skillLevel = skill.years | times: 10 | append: '%' | remove: '.0' %}
+    {% endif %}
     {% else %}
     {% assign skillLevel = {{skill.level}} %}
     {% endif %}
