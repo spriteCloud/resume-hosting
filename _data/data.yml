@@ -16,7 +16,7 @@ sidebar:
     # Sidebar links
     email: consultant@spritecloud.com
     timezone: Amsterdam
-    nationality: Dutch
+    #nationality: Dutch
     github: github.com/spriteCloud-consultant
 
     languages:
