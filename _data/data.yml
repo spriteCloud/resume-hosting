@@ -43,21 +43,31 @@ sidebar:
         - item: Cooking
           link:
 
-career-profile:
-    title: Career
-    summary: |
-      Brief career summary, goals and motivations
+#career-profile:
+#    title: Career
+#    summary: |
+#      Brief career summary, goals and motivations
 
 experiences:
     title: Experiences
     info:
-      - role: Latest Position Title
+      - role: Senior QA Engineer
         time: 2021 - Present
-        company: Company#1
+        company: spriteCloud
         details: |
-          Brief company description. <br>
-          
-          Brief role description.<br>
+          spriteCloud is a great consultancy.
+
+          Client #1
+            - Experience / achievement #1
+            - Experience / achievement #2
+            - ...
+
+          Client #2
+            - Experience / achievement #1
+            - Experience / achievement #2
+            - ...
+
+          Client #3
             - Experience / achievement #1
             - Experience / achievement #2
             - ...
@@ -83,28 +93,6 @@ experiences:
             - Experience / achievement #1
             - Experience / achievement #2
             - ...
-
-certifications:
-      title: Certifications
-      list:
-        - name: Certification#1
-          start: startDate
-          end: 2021
-          organization: Certifier#1
-          credentialid: 111-222
-          credentialurl: credentialUrl
-          credentialname: credentialname
-          details: |
-            Details about certification here.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Certifier#2
-          credentialid: 111-222
-          credentialurl: credentialUrl
-          credentialname: credentialname
-          details: |
-            Details about certification here.
 
 education:
   title: Education
@@ -145,29 +133,56 @@ projects:
         link: "#"
         tagline: "Brief description"
 
+certifications:
+  title: Certifications
+  list:
+    - name: Certification#1
+      start: startDate
+      end: 2021
+      organization: Certifier#1
+      credentialid: 111-222
+      credentialurl: credentialUrl
+      credentialname: credentialname
+      details: |
+        Details about certification here.
+
+    - name: Git learning
+      start: 2019
+      end:
+      organization: Certifier#2
+      credentialid: 111-222
+      credentialurl: credentialUrl
+      credentialname: credentialname
+      details: |
+        Details about certification here.
 
 skills:
   title: Skills &amp; Tools
 
   categories:
-    - title: Category#1
+    - title: Testing Tools
       toolset:
-        - name: Skill#1
-          level: 10
+        - name: Selenium
+          years: 4 # years is mandatory
+          level: 100% # percentage
 
-        - name: Skill#2
-          level: 5
+        - name: Appium
+          years: 5
+          level: 90%
 
-        - name: Skill#3
-          level: 7
+        - name: Playwright
+          years: 2
+          level: 40%
 
-    - title: Category#2
+    - title: Programming Languages
       toolset:
-        - name: Skill#1
-          level: 7
+        - name: Java
+          years: 5.5
 
-        - name: Skill#2
-          level: 6.5
+        - name: Python
+          years: 7
+          level: 60%
 
-        - name: Skill#3
-          level: 3.5
+        - name: JavaScript
+          years: 6
+          level: 30%

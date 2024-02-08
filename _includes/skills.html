@@ -12,26 +12,26 @@
 
   <div class="skillset">
 
-    {% assign maxLevel = 0 %}
-    {% for category in skills.categories %}
-    {% for skill in category.toolset %}
-    {% if skill.level > maxLevel %}
-    {% assign maxLevel = skill.level %}
-    {% endif %}
-    {% endfor %}
-    {% endfor %}
+    {% assign maxYears = 10 %}
 
     {% for category in skills.categories %}
+    <br>
     <h4>{{ category.title | capitalize }}</h4>
     {% for skill in category.toolset %}
+    {% if skill.level == nil %}
+    {% assign skillLevel = skill.years | times: 10 %}
+    {% assign skillLevel = skillLevel | append: '%' | remove: '.0' %}
+    {% else %}
+    {% assign skillLevel = {{skill.level}} %}
+    {% endif %}
     <div class="item">
-      {% capture scaledLevel %}{{ skill.level | times: 100 | divided_by: maxLevel }}{% endcapture %}
+      {% capture scaledLevel %}{{ skill.years | times: 100 | divided_by: maxYears }}{% endcapture %}
 
-      <h4 class="level-title">{{ skill.name }}</h4>
+      <h4 class="level-title">{{ skill.name }} - {{skill.years}} years </h4>
 
       <div class="level-bar">
-        <div class="level-bar-inner" data-level="{{ scaledLevel }}%">
-          <p style="color: white; font-size: 11px;"> {{skill.level}} years</p>
+        <div class="level-bar-inner" data-level="{{ skillLevel }}">
+          <!--<p style="color: white; font-size: 11px;"> {{skillLevel}} years</p> debugging p-->
         </div>
       </div><!--//level-bar-->
 
