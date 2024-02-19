@@ -1,6 +1,6 @@
 # Curriculum Vitae template
 
-This repository serves as a template project designed to simplify the process of hosting your Curriculum Vitae (CV) on GitHub Pages. With this template, you can effortlessly showcase your professional profile and accomplishments to potential employers, collaborators, or anyone interested in learning more about you.
+This repository serves as a template project designed to simplify the process of hosting your Curriculum Vitae (CV) on GitHub Pages. With this template, you can effortlessly showcase your professional profile and accomplishments to potential clients, collaborators, or anyone interested in learning more about you.
 
 By leveraging GitHub Pages, a feature that allows you to host static websites directly from your GitHub repositories, you can create a professional-looking online CV without the need for complex web hosting setups or services. GitHub Pages automatically builds and serves your CV website from the files in this repository, making it accessible to anyone with an internet connection.
 
@@ -45,6 +45,10 @@ To edit your CV content:
 
 ## Credits
 
-Theme: [sharu725](https://github.com/sharu725/online-cv)
+Theme: 
+[Sharath Kumar](https://github.com/sharu725/online-cv)
 
-Development: [Umutayb](https://github.com/Umutayb)
+Development: 
+[Umut Ay Bora](https://github.com/Umutayb)
+[Facundo Paolini](https://github.com/FisSher)
+
