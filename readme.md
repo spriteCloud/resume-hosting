@@ -43,12 +43,93 @@ To edit your CV content:
 2. Open the data.yml file to edit your template information.
 3. Replace the profile picture with your own image (100x100) located in /assets/images/.
 
+## Field Explanation
+
+### Sidebar
+- position: Position of the sidebar (left or right)
+- about: True/False; set to False or comment out if you want to remove the "how to use?" section in the sidebar
+- education: True/False; set to False if you want education in the main section instead of the sidebar
+- download: True/False; Set to True if you want to enable PDF download
+
+### Profile Information
+- name: Consultant Name
+- tagline: Consultant Title
+- avatar: Place a 100x100 picture inside the /assets/images/ folder and provide the filename below
+
+- email: Self-explanatory
+- timezone: City where the timezone is located
+- nationality: Self-explanatory
+- github: GitHub URL
+
+### Languages Section
+- title: Section title
+- info: Section containing language and level
+- idiom: Language
+- level: Highest level of the language
+
+### Interests Section
+- title: Section title
+- info: Container for the section object
+- item: Interest name
+- link: Any URL to share related information
+
+### Career Section
+- This section goes at the top of the profile.
+- title: Your career title
+- summary: A brief description of your career
+
+### Experiences Section
+- This section contains all the projects you have been working on.
+- title: Container name
+- info: Container to fill the position data
+- role: Role name
+- time: Time frame for the working period
+- company: Company name
+- details: Extended description for the position itself
+
+### Education Section
+- title: Section title
+- info: Container for the section data
+- degree: Degree name
+- university: Name of university
+- time: From/to duration of the degree
+- details: Description details of the degree
+
+### Projects Section
+- title: Section title
+- intro: Description of the project
+- assignments: Section for project details
+- title: Project title
+- link: Any URL for the project
+- tagline: Brief description
+
+### Certifications Section
+- title: Section title
+- list: Container for the section data
+- name: Certification name
+- start: Start year
+- end: End year
+- organization: Certifier organization
+- credentialid: Certification number
+- credentialurl: URL related if any
+- credential name: Credential name if any
+- details: Certification description
+
+### Skills
+- Tools and skills section
+- title: Section title
+- categories: Container for the section data
+- title: Skill container title
+- toolset: Section for the skill container
+- name: Skill/tool name
+- years: Mandatory number
+- level: Non-mandatory percentage (x%) to draw the percentage bars
+
 ## Credits
 
-Theme: 
+Theme:
 [Sharath Kumar](https://github.com/sharu725/online-cv)
 
-Development: 
+Development:
 [Umut Ay Bora](https://github.com/Umutayb)
 [Facundo Paolini](https://github.com/FisSher)
-
