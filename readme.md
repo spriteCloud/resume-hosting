@@ -55,7 +55,6 @@ To edit your CV content:
 - name: Consultant Name
 - tagline: Consultant Title
 - avatar: Place a 100x100 picture inside the /assets/images/ folder and provide the filename below
-
 - email: Self-explanatory
 - timezone: City where the timezone is located
 - nationality: Self-explanatory
